@@ -1,0 +1,37 @@
+#! /bin/sh
+
+# Load xresources
+xrdb -load ~/.config/x11/xresources
+
+# GPG Agent
+gpg-connect-agent updatestartuptty /bye >/dev/null
+
+# Compositor
+# picom &
+picom --experimental-backends &
+
+# Audio
+pipewire &
+pipewire-pulse &
+#pipewire-media-session &
+
+# Set Wallpaper
+xwallpaper --zoom ~/.local/share/bg
+
+xbanish -t 5 &
+$HOME/.local/src/xssstate/xsidle.sh slock &
+sxhkd &
+# slstatus &
+dwmblocks &
+dunst &
+mpd &
+remaps &
+
+# Loop
+# while true; do
+# 	dwm >/dev/null 2>&1
+# done
+
+# DWM
+exec dwm
+# exec dbus-launch --exit-with-session dwm

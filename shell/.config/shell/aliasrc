@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# Use $XINITRC variable if file exists.
+[ -f "$XINITRC" ] && alias startx="startx $XINITRC"
+
+alias ls="ls -hN --color=auto --group-directories-first"
+alias grep="grep --color=auto"
+alias diff="diff --color=auto"
+
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias rm="rm -vI"
+alias mkd="mkdir -pv"
+alias ka="killall"
+
+alias i="doas xbps-install -S"
+alias q="doas xbps-query -Rs"
+alias r="doas xbps-remove"
+alias u="doas xbps-install -Su"
+
+alias g="git"
+alias e="$EDITOR"
+alias v="$EDITOR"
+
+alias sdn="doas shutdown -h now"
+alias z="zathura"
+
+alias suck="doas make clean install && rm -f config.h ; make clean"
+
+# trash-cli aliases
+alias tre="trash-empty"
+alias trl="trash-list"
+alias trp="trash-put"
+alias trm="trash-remove"
+alias trr="trash-restore"
+
+# theme.sh aliases
+alias th="theme.sh -i"
+alias thl="theme.sh --light -i"
+alias thd="theme.sh --dark -i"

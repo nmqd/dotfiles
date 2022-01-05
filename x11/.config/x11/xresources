@@ -1,0 +1,47 @@
+!! Transparency (0-1):
+/* *.alpha: 0.90 */
+/* *.alpha: 1.00 */
+*.opacity: 0.85
+
+!! Set a default font and font size as below:
+/* *.font: FiraCode Nerd Font:size=8 */
+/* *.font: Hack Nerd Font:size=9 */
+*.font: JetBrainsMono Nerd Font:size=10
+/* *.font: SauceCodePro Nerd Font:size=9 */
+
+!! suckless settings:
+dwm.barborder: 2
+dwm.borderpx: 2
+st.borderpx: 10
+dwm.resizehints: 0
+dwm.attachmode: 2
+dwm.colorfultag: 1
+dmenu.borderpx: 3
+
+!! HiDPI settings:
+/* Xft.dpi: 125.37 */
+/* Xft.dpi: 123.428 */
+/* Xft.dpi: 96 */
+
+!! These might also be useful depending on your monitor and personal preference:
+Xt.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+!! Colors:
+/* #include "/home/najib/.config/x11/xcolors/gruvbox" */
+/* #include "/home/najib/.config/x11/xcolors/gruvboxlight" */
+/* #include "/home/najib/.config/x11/xcolors/gruvboxmaterial" */
+/* #include "/home/najib/.config/x11/xcolors/nord" */
+/* #include "/home/najib/.config/x11/xcolors/nordwarm" */
+/* #include "/home/najib/.config/x11/xcolors/solarized" */
+/* #include "/home/najib/.config/x11/xcolors/dracula" */
+/* #include "/home/najib/.config/x11/xcolors/base16" */
+/* #include "/home/najib/.config/x11/xcolors/onedark" */
+/* #include "/home/najib/.config/x11/xcolors/catppuccin" */
+/* #include "/home/najib/.config/x11/xcolors/tokyonight-day" */
+/* #include "/home/najib/.config/x11/xcolors/tokyonight-storm" */
+#include "/home/najib/.config/x11/xcolors/tokyonight-night"

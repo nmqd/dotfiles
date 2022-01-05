@@ -1,0 +1,99 @@
+"query: Starred:flags # \"s\""
+
+"query: Unread:unread = \"yes\""
+
+"query: Reddit:tags # \"reddit\""
+https://old.reddit.com/r/linux.rss "~  └─ linux" reddit
+https://old.reddit.com/r/bash.rss "~  └─ Bash" reddit
+https://old.reddit.com/r/unixporn.rss "~  └─ unixporn" reddit
+https://old.reddit.com/r/mechanicalkeyboards.rss "~  └─ Mechanicalkeyboards" reddit
+https://old.reddit.com/r/mechanicalheadpens.rss "~  └─ Mechanicalheadpens" reddit
+https://old.reddit.com/r/startpages.rss "~  └─ startpages" reddit
+https://old.reddit.com/r/FirefoxCSS.rss "~  └─ FirefoxCSS" reddit
+https://old.reddit.com/r/Firefox.rss "~  └─ Firefox" reddit
+https://old.reddit.com/r/terminal_porn.rss "~  └─ terminal_porn" reddit
+https://old.reddit.com/r/privacyguides.rss "~  └─ PrivacyGuides" reddit
+https://old.reddit.com/r/privacy.rss "~  └─ privacy" reddit
+https://old.reddit.com/r/tor.rss "~  └─ tor" reddit
+https://old.reddit.com/r/selfhosted.rss "~  └─ selfhosted" reddit
+https://old.reddit.com/r/commandline.rss "~  └─ commandline" reddit
+https://old.reddit.com/r/termux.rss "~  └─ termux" reddit
+https://old.reddit.com/r/voidlinux.rss "~  └─ voidlinux" reddit
+https://old.reddit.com/r/dwm.rss "~  └─ dwm" reddit
+https://old.reddit.com/r/suckless.rss "~  └─ suckless" reddit
+https://old.reddit.com/r/linuxmasterrace.rss "~  └─ linuxmasterrace" reddit
+
+https://old.reddit.com/r/grapheneos.rss "~  └─ grapheneos" reddit
+https://old.reddit.com/r/fdroid.rss "~  └─ fdroid" reddit
+
+"query: Linux:tags # \"linux\""
+https://lukesmith.xyz/rss.xml "~  └─ luke Smith" linux
+https://landchad.net/rss.xml "~  └─ landchad.net" linux
+https://itsfoss.com/feed/ "~  └─ itsfoss" linux
+
+"query: Suckless:tags # \"suckless\""
+https://git.suckless.org/sites/atom.xml "~  └─ suckless sites" suckless
+https://git.suckless.org/dwm/atom.xml "~  └─ dwm git" suckless
+https://git.suckless.org/st/atom.xml "~  └─ st git" suckless
+https://git.suckless.org/dmenu/atom.xml "~  └─ dmenu git" suckless
+https://suckless.org/atom.xml "~  └─ suckless.org" suckless
+
+"query: Podcast:tags # \"pod\""
+https://destinationlinux.org/feed/mp3 "~  └─ DLN" pod
+
+"query:磊Youtube:tags # \"youtube\""
+https://www.youtube.com/feeds/videos.xml?user=marquesbrownlee "~  └─ Marques Brownlee" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDlQwv99CovKafGvxyaiNDA "~  └─ Jonathan Morrison" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSOpcUkE-is7u7c4AkLgqTw "~  └─ MrMobile [Michael Fisher]" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCO_vmeInQm5Z6dEZ6R5Kk0A "~  └─ Pocketnow" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMiJRAwDNSNzuYeN2uWa0pA "~  └─ Mrwhosetheboss" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVYamHliCI9rw1tHR1xbkfw "~  └─ Dave Lee" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTd08bYLVmO6sMR0ftRltuQ "~  └─ NothingButTech" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw "~  └─ Linus Tech Tips" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsTcErHg8oDvUnTzoqsYeNw "~  └─ Unbox Therapy" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIrrRLyFMVmmL9NDAU2obJA "~  └─ SuperSaf" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCk1SpWNzOs4MYmr0uICEntg "~  └─ xdadevelopers" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtZO3K2p8mqFwiKWb9k7fXA "~  └─ TechAltar" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR0AnNR7sViH3TWMJl5jyxw "~  └─ Jon Rettinger" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzlXf-yUIaOpOjEjPrOO9TA "~  └─ The Tech Chap" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSqAtygCJCIdzWT6o7Ok87Q "~  └─ PAINFULLY HONEST TECH" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3fg6pL63upkXCc0T203wVg "~  └─ Sara Dietschy" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCey_c7U86mJGz1VJWH5CYPA "~  └─ iJustine" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCB2527zGV3A0Km_quJiUaeQ "~  └─ Erica Griffin" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOGJ1pFCYj65_kDgAlHRH8w "~  └─ Thao Huynh" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~  └─ Luke Smith" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZrrEuHiQjN2CUo84g5tk7w "~  └─ tripcode!Q/7" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeKE6c-kQXm4x_sJQxZPvlg "~  └─ Linux Lounge" youtube
+https://www.youtube.com/feeds/videos.xml?user=metalx1000 "~  └─ Kris Occhipinti" youtube
+https://www.youtube.com/feeds/videos.xml?user=g297125009 "~  └─ Gavin Freeborn" youtube
+https://www.youtube.com/feeds/videos.xml?user=tuxreviews "~  └─ Gardiner Bryant" youtube
+https://www.youtube.com/feeds/videos.xml?user=hexdsl "~  └─ HexDsl" youtube
+https://www.youtube.com/feeds/videos.xml?user=gotbletu "~  └─ Gotbletu" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS97tchJDq17Qms3cux8wcA "~  └─ ChrisAtMachine" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWJUSpXVHTaHErtGWC5qPlQ "~  └─ Destination Linux Network" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "~  └─ DistroTube" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg "~  └─ Wolfgang channel" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA "~  └─ Brodie Robertson" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCljOhRB2a3sQgLCdK9CHQvQ "~  └─ Leafshade Software" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_0CVCfC_3iuHqmyClu59Uw "~  └─ ETA PRIME" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrjKdwxaQMSV_NDywgKXVmw "~  └─ Novaspirit Tech" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrUL8K81R4VBzm-KOYwrcxQ "~  └─ Engineer Man" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWh6YtclgTAzReTASc4uSKw "~  └─ MACK" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCEQXp_fcqwPcqrzNtWJ1w9w "~  └─ Logos By Nick" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR7Xa7cU9wfkSY9v3yN2Vtw "~  └─ JuanMTech" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCjr2bPAyPV7t35MvcgT3W8Q "~  └─ The Hated One" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJ24N4O0bP7LGLBDvye7oCA "~  └─ Matt D'Avella" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCPmfPl-BsCd3wmE8i45LAoA "~  └─ Simon Sinek" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoOae5nYA7VqaXzerajD0lg "~  └─ Ali Abdaal" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUFFHXvzAMRSD8Bq4bJppxQ "~  └─ Elizabeth Filips" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG-KntY7aVnIGXYEBQvmBAQ "~  └─ Thomas Frank" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR9gMSj0UUxGvgfpNhhF3Jw "~  └─ Amy Landino" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCuoxrRDDgk3UUnxR4tlkJYQ "~  └─ Marie Forleo" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3DkFux8Iv-aYnTRWzwaiBA "~  └─ Peter McKinnon" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtinbF-Q-fVthA0qrFQTgXQ "~  └─ CaseyNeistat" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUQo7nzH1sXVpzL92VesANw "~  └─ DIY Perks" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-g0gSStENkYPXFRsKrlvyA "~  └─ The English Coach" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAQg09FkoobmLquNNoO4ulg "~  └─ linguamarina" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvn_XCl_mgQmt3sD753zdJA "~  └─ Rachel's English" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTX8ZbNDi_HBoyjTWRw9fAg "~  └─ One Islam Productions" youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCT6AJiTYspOILBK3hMWEq2g "~  └─ Switch & Click" youtube

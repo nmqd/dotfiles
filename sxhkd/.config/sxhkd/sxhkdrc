@@ -1,0 +1,33 @@
+# Reload functions
+super + Escape
+	"$XDG_CONFIG_HOME"/sxhkd/functions
+
+XF86Audio{Prev,Next}
+	mpc -q {prev,next}
+
+XF86AudioRaiseVolume
+  pulsemixer --change-volume +1 ; pkill -RTMIN+10 dwmblocks
+  
+XF86AudioLowerVolume
+  pulsemixer --change-volume -1 ; pkill -RTMIN+10 dwmblocks
+
+XF86AudioMute
+  pulsemixer --toggle-mute ; pkill -RTMIN+10 dwmblocks
+
+super + shift + equal
+	nsxiv -rt "$HOME/image"
+
+XF86LaunchB
+	xdotool selectwindow | xsel -bi
+
+super + alt + {0-9}
+	mpc -q seek {0-9}0%
+
+alt + o ; {w,d}
+	{firefox,displayselect}
+
+alt + f
+  $TERMINAL -c "lf" lfrun
+
+alt + r
+  xrdb ~/.config/x11/xresources ; kill -USR1 $(pidof st) ; xdotool key super+F5
